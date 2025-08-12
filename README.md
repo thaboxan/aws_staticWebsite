@@ -1,4 +1,4 @@
-# Week 8: Static Website Deployment with AWS S3 and CloudFront
+ Static Website Deployment with AWS S3 and CloudFront
 
 ## 🚀 Project Overview
 
@@ -60,7 +60,6 @@ This project demonstrates the deployment of a professional portfolio website usi
 | **AWS CLI** | AWS command-line interface | v2.28.7 |
 | **HTML5** | Website structure | - |
 | **CSS3** | Website styling | - |
-| **JavaScript** | Interactive functionality | ES6+ |
 | **Git** | Version control | Latest |
 
 ---
@@ -139,30 +138,12 @@ Your AWS user/role needs the following permissions:
 - `cloudfront:*` (CloudFront full access)
 - `iam:*` (IAM full access)
 - `route53:*` (Route53 full access - optional)
-
 ---
 
 ## 🚀 Deployment Instructions
 
 ### Method 1: Automated Deployment (Recommended)
 
-#### Option A: Using PowerShell (Windows)
-```powershell
-# Navigate to project directory
-cd C:\Users\Wipro\desktop\week_8\terraform
-
-# Initialize Terraform
-terraform init
-
-# Validate configuration
-terraform validate
-
-# Plan deployment
-terraform plan -out=tfplan
-
-# Apply deployment
-terraform apply tfplan
-```
 
 #### Option B: Using Bash Script
 ```bash
@@ -480,3 +461,4 @@ terraform show
 ---
 
 *This project successfully demonstrates the deployment of a professional portfolio website using AWS S3 and CloudFront, showcasing modern DevOps practices and cloud infrastructure management.*
+
