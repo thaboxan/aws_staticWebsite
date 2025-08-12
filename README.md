@@ -311,16 +311,7 @@ resource "aws_cloudfront_distribution" "website" {
 
 ---
 
-## 💰 Cost Optimization
 
-### Cost Breakdown (Estimated Monthly)
-| Service | Usage | Estimated Cost |
-|---------|--------|----------------|
-| **S3 Storage** | ~100MB website files | $0.02 |
-| **S3 Requests** | ~1,000 GET requests | $0.01 |
-| **CloudFront** | ~1GB data transfer | $0.09 |
-| **CloudFront Requests** | ~10,000 requests | $0.01 |
-| **Total** | | **~$0.13/month** |
 
 ### Cost Optimization Strategies:
 1. **S3 Intelligent Tiering**: Automatically moves files to cheaper storage classes
@@ -419,19 +410,7 @@ terraform show
 - [AWS CloudFront Documentation](https://docs.aws.amazon.com/cloudfront/)
 - [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
 
-### Related Projects:
-- [Week 7: Container Deployment](../week_7/README.md)
-- [Week 9: CI/CD Pipeline](../week_9/README.md)
 
----
-
-## 👨‍💻 About
-
-**Developer**: Thabo Jafta  
-**Role**: DevOps Engineering Intern  
-**Company**: Wipro x Capaciti  
-**Project**: Week 8 - Static Website Deployment  
-**Date**: August 2025  
 
 ### Skills Demonstrated:
 - ☑️ AWS S3 static website hosting
@@ -441,10 +420,7 @@ terraform show
 - ☑️ Cost optimization strategies
 - ☑️ Professional documentation
 
-### Connect:
-- **GitHub**: [@thaboxan](https://github.com/thaboxan)
-- **LinkedIn**: [Thabo Jafta](https://www.linkedin.com/in/thabojafta1/)
-- **Portfolio**: [Live Website](https://dbnp3womfvfzi.cloudfront.net)
+
 
 ---
 
@@ -461,4 +437,5 @@ terraform show
 ---
 
 *This project successfully demonstrates the deployment of a professional portfolio website using AWS S3 and CloudFront, showcasing modern DevOps practices and cloud infrastructure management.*
+
 
