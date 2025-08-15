@@ -90,12 +90,11 @@ week_8/
 │   ├── terraform.tfvars       # Variable values
 │   └── terraform.tfstate      # State file
 └── screenshots/               # Project documentation images
-    ├── s3-bucket-configuration.png
-    ├── bucket-policy.png
-    ├── cloudfront-distribution.png
-    ├── website-live.png
-    ├── terraform-apply.png
-    └── aws-resources.png
+  ├── s3-settings.png
+  ├── bucket-policy.png
+  ├── cloudfront-distribution.png
+  ├── website-live.png
+  └── week_8.png
 ```
 
 ---
@@ -285,9 +284,9 @@ resource "aws_cloudfront_distribution" "website" {
 
 ## 📸 Screenshots
 
-### 1. S3 Bucket Configuration
-![S3 Bucket Setup](screenshots/s3-bucket-configuration.png)
-*Shows S3 bucket with static website hosting enabled and proper configuration*
+### 1. S3 Bucket Settings
+![S3 Settings](screenshots/s3-settings.png)
+*S3 bucket configuration and static website settings*
 
 ### 2. Bucket Policy Configuration  
 ![Bucket Policy](screenshots/bucket-policy.png)
@@ -301,13 +300,9 @@ resource "aws_cloudfront_distribution" "website" {
 ![Website Live](screenshots/website-live.png)
 *Professional portfolio website running live via CloudFront*
 
-### 5. Terraform Apply Success
-![Terraform Success](screenshots/terraform-apply.png)
-*Successful infrastructure deployment showing all created resources*
-
-### 6. AWS Resources Overview
-![AWS Console](screenshots/aws-resources.png)
-*AWS console showing all deployed resources and their status*
+### 5. Deployment Summary
+![Deployment Summary](screenshots/week_8.png)
+*High-level summary screenshot of the deployment/resources*
 
 ---
 
